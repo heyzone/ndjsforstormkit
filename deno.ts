@@ -4,7 +4,7 @@ const UUID: string = Deno.env.get("UUID") || "a87056c0-abeb-45e4-a97e-f23bdf84d1
 const SUB_PATH: string = Deno.env.get("SUB_PATH") || "sub";  //获取订阅路径
 const XPATH: string = Deno.env.get("XPATH") || "xhttp";      // 节点路径
 const DOMAIN: string = Deno.env.get("DOMAIN") || "scowlfancy-tljepr.stormkit.dev";         // deno分配的域名必填，不带https://前缀，例如：xxxx.deno.dev      
-const NAME: string = Deno.env.get("NAME") || "Deno";         // 名称
+const NAME: string = Deno.env.get("NAME") || "Stormkit";         // 名称
 const PORT: number = parseInt(Deno.env.get("PORT") || "3000"); 
 
 interface Settings {
